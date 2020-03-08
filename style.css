@@ -1,0 +1,45 @@
+@import url(https://fonts.googleapis.com/css?family=Teko:regular);
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Teko", sans-seriff;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: radial-gradient(#121212, #000000);
+    color: #ffffffdd;
+    line-height: 3em;
+}
+
+.clock-box {
+    padding: 3em 1.5em;
+}
+
+.clock {
+    font-size: 4.5em;
+}
+
+.date {
+    font-size: 2em;
+}
+
+.clock, .date {
+    text-shadow: 0 5px 5px #000000bb;
+}
+
+
+
+
+
+
+
